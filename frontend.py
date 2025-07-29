@@ -16,7 +16,7 @@ from joblib import load
 #    break
 
 def cropSystem(n, p, k, temp, h, ph, rf):
-   model = load(r"C:\Users\Bruger\OneDrive\Desktop\Python\PROJECT\CRS.joblib")
+   model = load(r"./CRS.joblib")
    cropName = ['rice', 'maize', 'chickpea', 'kidneybeans','pigeonpeas', 'mothbeans',   
  'mungbean', 'blackgram', 'lentil', 'pomegranate', 'banana', 'mango', 'grapes',
  'watermelon', 'muskmelon', 'apple', 'orange', 'papaya', 'coconut', 'cotton', 'jute', 'coffee']
